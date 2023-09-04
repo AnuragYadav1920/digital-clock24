@@ -6,13 +6,13 @@ let images = [
   "5.jpg",
   "6.jpg",
 ];
-let i = 0;
+let i = 1;
 setInterval(() => {
   let ch = document.querySelectorAll("img")[0];
   ch=ch.setAttribute("src",images[i])
   i++;
-  if(i==6){
-    i=0;
+  if(i==7){
+    i=1;
   }
 }, 10000);
 
