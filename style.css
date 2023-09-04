@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  color: #000;
+  background:linear-gradient(180deg,#0e035e,#f0f3f310,#05512b);
+}
+
+.container{
+  display: grid;
+  text-align: center;
+  position: relative;
+}
+#time{
+  font-size:100px;
+  margin-top: 17%;
+}
+#Date{
+  font-size: 60px;
+}
+.body-image{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+}
+img{
+  opacity: 0.25;
+}
+@media only screen and (max-width:650px){
+  #time{
+    font-size: 40px;
+    
+  }
+  #Date{
+    font-size: 25px;
+  }
+  
+}
